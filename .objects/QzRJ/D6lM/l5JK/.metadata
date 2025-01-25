@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Dashboard",
+  "Type": "Screen",
+  "Id": "l5JKRAG9n0G-jKpGj_kI4A",
+  "Reference": "wbHWQQW-B02CV00pRCTNRQ/l5JKRAG9n0G-jKpGj_kI4A",
+  "ParentRef": "wbHWQQW-B02CV00pRCTNRQ/D6lMPyP7qkGpIuj4H7yqpA",
+  "Created": "2025-01-25T13:16:49.8088262Z",
+  "Updated": "2025-01-25T13:16:49.8088262Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Wi20nbx7zkaZUYPFPk8Mfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/account/login" CVScreenId="066abd28-0be5-4869-8696-8a7dada9df12" CvElementArea="984, 651, 707, 46" CvType="InputBox" DesignTimeRectangle="987, 654, 702, 42" DesignTimeScaleFactor="1.125" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='Password' tag='INPUT' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='Password' tag='INPUT' type='password' class='form-control text-box single-line password input-validation-error' aaname='Password' /&gt;" Guid="3a6f39fe-facf-4185-8186-606763ee4f1b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="066abd28-0be5-4869-8696-8a7dada9df12" CvTextArea="985, 621, 97, 16" CvTextArgument="Password *" CvType="Text" DesignTimeRectangle="987, 617, 96, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='form-label required fw600' check:innerText='Password' /&gt;" Guid="cbcc2e94-c1bd-4048-a013-26ae0cced986" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="af7497aeb8dda3eb817737850e57a89e.png" xmlns="">0EV5hoU9OdUCoNMk_jkJIZA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

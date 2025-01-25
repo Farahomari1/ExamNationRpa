@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VdB8JkKt7kKnUb50KQh3ow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/account/login" CVScreenId="066abd28-0be5-4869-8696-8a7dada9df12" CvElementArea="983, 526, 709, 46" CvType="InputBox" DesignTimeRectangle="987, 529, 702, 42" DesignTimeScaleFactor="1.125" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='UserName' tag='INPUT' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;webctrl id='UserName' tag='INPUT' type='text' class='form-control text-box single-line input-validation-error' aaname='Username' /&gt;" Guid="25cfa174-f530-428b-b7a5-9f86fde78e1e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="066abd28-0be5-4869-8696-8a7dada9df12" CvTextArea="985, 496, 102, 16" CvTextArgument="Username *" CvType="Text" DesignTimeRectangle="987, 492, 101, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzyAccuracy="0.94" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='form-label required fw600' aaname='Username' check:innerText='Username' /&gt;" Guid="04dd5499-1576-43f5-80de-c4a7344970ac" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5af8f45932aa3bf26895872e84b59bde.png" xmlns="">0veilu254r0eKpensrMju9Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

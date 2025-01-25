@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge ExamEase",
+  "Type": "Screen",
+  "Id": "WgYPBU0JiEmC5vN-wpQMsQ",
+  "Reference": "wbHWQQW-B02CV00pRCTNRQ/WgYPBU0JiEmC5vN-wpQMsQ",
+  "ParentRef": "wbHWQQW-B02CV00pRCTNRQ/jLWJ3sf_Zk67kgyREDZkTA",
+  "Created": "2025-01-25T13:00:37.7437535Z",
+  "Updated": "2025-01-25T13:00:37.7437535Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

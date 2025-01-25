@@ -1,0 +1,352 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="865.6000000000001,4332" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="AdminUsername" />
+      <Variable x:TypeArguments="ss:SecureString" Name="AdminPassword" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_ExamResult" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="ExamNationAdmin" CacheStrategy="None" DisplayName="Get Credential" FolderPath="ExamNation" sap:VirtualizedContainerService.HintSize="585.6,175.2" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[AdminPassword]" Username="[AdminUsername]" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ExamEase" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="585.6,492.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="57d6eb37-66a1-462c-8fea-5fb7825b7f00" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,244" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,182.4" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="57d6eb37-66a1-462c-8fea-5fb7825b7f00" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="localhost" CVScreenId="dbe82f27-6998-4ed2-bc9a-ffd501d5ec4f" DesignTimeRectangle="1444, 176, 95, 41" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='hover-boxshadow border-0 bg-light color-black hover-bg-primarycolor px-4 py-2 rounded shadow' aaname='Login' check:innerText='Login' /&gt;" Guid="5f643c17-ed0d-483b-8354-d91a97506a7a" InformativeScreenshot="7c43056b976ec1ec4ab7cf57c3896e12.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ExamEase' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAP2SURBVFhH7VX5U5NnEO6/ZD3q1Zl2xhlndBQRBR0vREWlFZVygyBUhHBjRCMtx8ihKLEtIMGrhBEVw9WqIBAiIcCAgoIcJoTjcXczUUszCcJMO53ywzP5vn03+z27++y+X2z9Khz/JhYJLBL4bxDYsjwUW5b9He4rwj6+k4/4ryD/T85nx5oNlwS2rz0F/z1KBPhc/AtOEg64JeL43vP44YAKRz3T5OM7vjmNE94XEEC2/RviiYTjuHY4JcAZ+GxS4HFLL9rfmNE+ZIb+rcWGYTOS435BsVpHzxbo2vrh55WOjJRy8a1r74f/biXclzuvgmsCmxVo6hyEcQK4XaPH5YIHyC98iIKih5Kp3450NNK5yUrnD/RoMr6B0TyNc6k3XWbPmDsBy4xkGx99DYmxaoT758JjVQT1PgyJP6qpKhPoIpJdRKT09lPs/DZG/u8o7qeYMwEO3vluCp1jVnSZp6ga7fBcGyViO+qVhj+7h8SHiWYkl8ON7I5izsbcCVBgLntUYD5iQooQeOiS+GxfE4kr12rlw7YqzOBxaz8Ob0v9OBlO8FkV0GhbkJNdhdwcLfLytAg8qEJs6BX58POBcRFgvWEA3VOAurQBnl9HUQzHse1wTYCmoK7tJTpGrALD6CQMY4RRK/ILalDd2CXvXB2PlREiPv2wjVBcRPHCpoDhSXuAZz70uxxB8JGfEeibRS3IwvF9mR/s3jTzXPKdtAeCjvyEsGO5OEZjyEJ1FNcOlwRYZKF+2ai414xK7XNkZmikMpu/DEZ0UIHYNFUtuH5Dhz3r47BrXSyKr9eisspmD/s+R2I4is1wSYAzUJc1omca0tsm42scck8iAiE4T2TYZpoEtWcCQYezZEvyYmKbyToDRYwabktDHMZmONcA9c/XIwV/mIbQ8moMDSQwo2UaCtoDm5YEQ5muEXF2jEzKlCjTK5CWVEbjOi264MlIOF0yfwJcuuSzv8pyKbvzDFmqu+imzMqpHVwZZVqFnNV1DMgkVFa3ouL3ZjztHcaTnuEFEqDx8aIx0lCPucyX82skc1b/s74RWcEZKTdhorO7tQaa/T66Kyxoo3uAidQTKa7OvAmwolnlzS9HJUu+iFoHxyUrDqykcWMC3aQNrk7Jbw3S9xfjU7iYeQs6/auFEeD+c8l7Zlh4gzTz92n5VENb34leslXpDMimpdQL2v23niDpzA25kJr73iLCPw8NtLy4cvMW4bbVkUhNKMXVEh3iIm0LhQMF+KhQePURbUQtEqJLUERrWEGXke/WZLopa5B5rhLeG+NxSXUPhcW14u9sJTsVIc87f5h/HdpIJ/bnD3aC+NmfF7KK/wksElgk8H8nEI73HoQtb4ht7/IAAAAASUVORK5CYII=" InformativeScreenshot="b314cc9ac3526a8cba6f186ea145caef.jpg" Selector="&lt;html app='msedge.exe' title='ExamEase' /&gt;" Url="https://localhost:44327/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Login(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="585.6,1216" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="e6741387-2b8a-42c2-8dcd-309f2975101b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,967.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="e6741387-2b8a-42c2-8dcd-309f2975101b" Text="[AdminUsername]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="localhost/account/login" CVScreenId="066abd28-0be5-4869-8696-8a7dada9df12" CvElementArea="983, 526, 709, 46" CvType="InputBox" DesignTimeRectangle="987, 529, 702, 42" DesignTimeScaleFactor="1.125" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='UserName' tag='INPUT' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;webctrl id='UserName' tag='INPUT' type='text' class='form-control text-box single-line input-validation-error' aaname='Username' /&gt;" Guid="25cfa174-f530-428b-b7a5-9f86fde78e1e" InformativeScreenshot="5af8f45932aa3bf26895872e84b59bde.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="066abd28-0be5-4869-8696-8a7dada9df12" CvTextArea="985, 496, 102, 16" CvTextArgument="Username *" CvType="Text" DesignTimeRectangle="987, 492, 101, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzyAccuracy="0.94" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='form-label required fw600' aaname='Username' check:innerText='Username' /&gt;" Guid="04dd5499-1576-43f5-80de-c4a7344970ac" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" IsPassword="True" ScopeIdentifier="e6741387-2b8a-42c2-8dcd-309f2975101b" SecureText="[AdminPassword]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="localhost/account/login" CVScreenId="066abd28-0be5-4869-8696-8a7dada9df12" CvElementArea="984, 651, 707, 46" CvType="InputBox" DesignTimeRectangle="987, 654, 702, 42" DesignTimeScaleFactor="1.125" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='Password' tag='INPUT' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='Password' tag='INPUT' type='password' class='form-control text-box single-line password input-validation-error' aaname='Password' /&gt;" Guid="3a6f39fe-facf-4185-8186-606763ee4f1b" InformativeScreenshot="af7497aeb8dda3eb817737850e57a89e.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="066abd28-0be5-4869-8696-8a7dada9df12" CvTextArea="985, 621, 97, 16" CvTextArgument="Password *" CvType="Text" DesignTimeRectangle="987, 617, 96, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='form-label required fw600' check:innerText='Password' /&gt;" Guid="cbcc2e94-c1bd-4048-a013-26ae0cced986" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NCheck Action="Uncheck" DisplayName="Check/Uncheck 'Remember me?'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="e6741387-2b8a-42c2-8dcd-309f2975101b" Version="V4">
+              <uix:NCheck.Target>
+                <uix:TargetAnchorable BrowserURL="localhost/account/login" CVScreenId="7500157c-2afe-4fbd-a082-248c6d3a5b6a" ContentHash="FBHVCKO8h0ma1-bhLStOWQ" CvElementArea="984, 632, 21, 22" CvType="CheckBox" DesignTimeRectangle="987, 634, 16, 17" DesignTimeScaleFactor="1.125" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl id='RememberMe' tag='INPUT' /&gt;" FuzzyAccuracy="0.94" FuzzySelectorArgument="&lt;webctrl id='RememberMe' tag='INPUT' type='checkbox' class='form-check-input' aaname='Remember me?' /&gt;" Guid="48fea2b4-e770-4e69-8575-d7a68ca2d4e7" ImageBase64="" InformativeScreenshot="05d049d29a3856368576f0a9e05fa45e.png" Reference="wbHWQQW-B02CV00pRCTNRQ/yt8kLeyX2UmAwgr4DVzvRg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="7500157c-2afe-4fbd-a082-248c6d3a5b6a" CvTextArea="1010, 635, 119, 15" CvTextArgument="Remember me?" CvType="Text" DesignTimeRectangle="1012, 631, 117, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Remember me?' tag='LABEL' /&gt;" FuzzyAccuracy="0.92" FuzzySelectorArgument="&lt;webctrl aaname='Remember me?' tag='LABEL' type='' class='form-check-label small fw-light' check:innerText='Remember me?' /&gt;" Guid="e2d4ae58-a49c-4feb-9be3-0ad96716101c" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheck.Target>
+            </uix:NCheck>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216.8" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e6741387-2b8a-42c2-8dcd-309f2975101b" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="localhost/account/login" CVScreenId="a372f883-86d1-4304-8bc1-4a17a4806969" ContentHash="3soF-1aGJ0ethe0L6H-2zQ" CvElementArea="984, 684, 103, 50" CvTextArea="1009, 701, 52, 13" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="987, 686, 99, 46" DesignTimeScaleFactor="1.125" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn form-btn btn-primary hover-boxshadow hover-moveup' aaname='Submit' check:innerText='Submit' /&gt;" Guid="54907be5-d412-4f4c-a8af-6a2655e2085e" InformativeScreenshot="62ed74f86e2092b214c067f08452824a.png" Reference="wbHWQQW-B02CV00pRCTNRQ/JT5Pl5ziSUmqwrBzQ7b8gw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Edge" ContentHash="WuRIYNf8iUa4vF7tPgehjw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAP2SURBVFhH7VX5U5NnEO6/ZD3q1Zl2xhlndBQRBR0vREWlFZVygyBUhHBjRCMtx8ihKLEtIMGrhBEVw9WqIBAiIcCAgoIcJoTjcXczUUszCcJMO53ywzP5vn03+z27++y+X2z9Khz/JhYJLBL4bxDYsjwUW5b9He4rwj6+k4/4ryD/T85nx5oNlwS2rz0F/z1KBPhc/AtOEg64JeL43vP44YAKRz3T5OM7vjmNE94XEEC2/RviiYTjuHY4JcAZ+GxS4HFLL9rfmNE+ZIb+rcWGYTOS435BsVpHzxbo2vrh55WOjJRy8a1r74f/biXclzuvgmsCmxVo6hyEcQK4XaPH5YIHyC98iIKih5Kp3450NNK5yUrnD/RoMr6B0TyNc6k3XWbPmDsBy4xkGx99DYmxaoT758JjVQT1PgyJP6qpKhPoIpJdRKT09lPs/DZG/u8o7qeYMwEO3vluCp1jVnSZp6ga7fBcGyViO+qVhj+7h8SHiWYkl8ON7I5izsbcCVBgLntUYD5iQooQeOiS+GxfE4kr12rlw7YqzOBxaz8Ob0v9OBlO8FkV0GhbkJNdhdwcLfLytAg8qEJs6BX58POBcRFgvWEA3VOAurQBnl9HUQzHse1wTYCmoK7tJTpGrALD6CQMY4RRK/ILalDd2CXvXB2PlREiPv2wjVBcRPHCpoDhSXuAZz70uxxB8JGfEeibRS3IwvF9mR/s3jTzXPKdtAeCjvyEsGO5OEZjyEJ1FNcOlwRYZKF+2ai414xK7XNkZmikMpu/DEZ0UIHYNFUtuH5Dhz3r47BrXSyKr9eisspmD/s+R2I4is1wSYAzUJc1omca0tsm42scck8iAiE4T2TYZpoEtWcCQYezZEvyYmKbyToDRYwabktDHMZmONcA9c/XIwV/mIbQ8moMDSQwo2UaCtoDm5YEQ5muEXF2jEzKlCjTK5CWVEbjOi264MlIOF0yfwJcuuSzv8pyKbvzDFmqu+imzMqpHVwZZVqFnNV1DMgkVFa3ouL3ZjztHcaTnuEFEqDx8aIx0lCPucyX82skc1b/s74RWcEZKTdhorO7tQaa/T66Kyxoo3uAidQTKa7OvAmwolnlzS9HJUu+iFoHxyUrDqykcWMC3aQNrk7Jbw3S9xfjU7iYeQs6/auFEeD+c8l7Zlh4gzTz92n5VENb34leslXpDMimpdQL2v23niDpzA25kJr73iLCPw8NtLy4cvMW4bbVkUhNKMXVEh3iIm0LhQMF+KhQePURbUQtEqJLUERrWEGXke/WZLopa5B5rhLeG+NxSXUPhcW14u9sJTsVIc87f5h/HdpIJ/bnD3aC+NmfF7KK/wksElgk8H8nEI73HoQtb4ht7/IAAAAASUVORK5CYII=" InformativeScreenshot="50a74924b490816e421088a916c9eead.jpg" Reference="wbHWQQW-B02CV00pRCTNRQ/K8T4LzhXMEaaib8Amodasw" Selector="&lt;html app='msedge.exe' title='Login' /&gt;" Url="https://localhost:44327/account/login" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Dashboard" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="585.6,680.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="d850faf7-2dc0-429f-b0f1-f73aa8564fbe" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,432" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Exam Result'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d850faf7-2dc0-429f-b0f1-f73aa8564fbe" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="localhost/dashboard" CVScreenId="353463f8-a8b8-4d8c-ba81-ad65aa67b010" ContentHash="h9rXkbp70k-vhhg6tQ3mzQ" CvTextArea="80, 570, 97, 15" CvTextArgument="Exam Result" CvType="Text" DesignTimeRectangle="82, 565, 95, 26" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Exam Result' parentid='sidebar-nav' tag='SPAN' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;webctrl aaname='Exam Result' parentid='sidebar-nav' tag='SPAN' type='' class='' check:innerText='Exam Result' /&gt;" Guid="5c90d4b7-93de-4eca-af31-eaf6a70fbf3f" InformativeScreenshot="df3554446cc773c9395b9d29ef83124d.png" Reference="wbHWQQW-B02CV00pRCTNRQ/ywM0o8NMlEiT_6uAWjDKjg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="353463f8-a8b8-4d8c-ba81-ad65aa67b010" CvElementArea="49, 565, 25, 26" CvType="Icon" DesignTimeRectangle="53, 569, 18, 18" FullSelectorArgument="&lt;webctrl idx='9' parentid='sidebar-nav' tag='I' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl type='' parentid='sidebar-nav' tag='I' class='fa-solid fa-certificate' aaname='' /&gt;" Guid="45277d46-d593-4f9f-819e-ff8f0414c341" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFzSURBVEhL3ZOxigIxFEX3CxURQbT1B2zESm2ttPMbFBtLP8BORZBp9BMUBAVBRK+cwIS4SWZ2hW32wiXk5d0zw8zLl/5I/xC8XC7V6/V0OBzMnpU99SzlggeDgQqFglqtlvb7vVnZU8+SBz6dTppMJkqSRMfjUc1m04C+mzrn9NFPzpUHXq1WKpVKQVjM9JNz5YF5i0ajEQTETD85Vx74crmo0+kEATHTT86VBW+3W/PkYrEYDOeZHHk4yIIXi4XK5XIw9FOTh4Ms+Pl8aj6ffwwnRx4OevvGWeOV53T8UlkwN+pTaGry6Q214Ol0Gmz+reEgC77f71qv1xqNRqrVasFQzPSTIw8HvX1jdL1e1W63g4CY6SfnygPvdjtVq9UgIGb6ybnywJvNRpVKxQz7cDhUvV4PwqhzTh/95Fx5YFe3203dbteAmNN+v2/nnDrnMWWC0Xg8tsP/eDw0m83MnnqWcsH85fP5bG8UK/v074clvQB8bMS4BgBwsgAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Arabic'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,180.8" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d850faf7-2dc0-429f-b0f1-f73aa8564fbe" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="localhost/result" CVScreenId="01bae9c7-14b3-4b37-b002-9e914bb5a966" ContentHash="_5E_lKcotkCIE3Qwv0Qoxw" CvTextArea="391, 454, 55, 15" CvTextArgument="Arabic" CvType="Text" DesignTimeRectangle="393, 450, 53, 23" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl id='examresult-table' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;" FuzzyAccuracy="0.96" FuzzySelectorArgument="&lt;webctrl id='examresult-table' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' isleaf='1' class='fw600 color-primarycolor hover-color-secondarycolor' aaname='Arabic ' /&gt;" Guid="5e7180a0-0968-47bd-9505-a74353508381" InformativeScreenshot="1c01bee51bde73b65e5feda724a7d4d6.png" Reference="wbHWQQW-B02CV00pRCTNRQ/sUYbK52KtUeskqsWF9yE5w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Exam Result' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Edge" ContentHash="iPl81EKKoE-BMx7rTnrvdw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAP2SURBVFhH7VX5U5NnEO6/ZD3q1Zl2xhlndBQRBR0vREWlFZVygyBUhHBjRCMtx8ihKLEtIMGrhBEVw9WqIBAiIcCAgoIcJoTjcXczUUszCcJMO53ywzP5vn03+z27++y+X2z9Khz/JhYJLBL4bxDYsjwUW5b9He4rwj6+k4/4ryD/T85nx5oNlwS2rz0F/z1KBPhc/AtOEg64JeL43vP44YAKRz3T5OM7vjmNE94XEEC2/RviiYTjuHY4JcAZ+GxS4HFLL9rfmNE+ZIb+rcWGYTOS435BsVpHzxbo2vrh55WOjJRy8a1r74f/biXclzuvgmsCmxVo6hyEcQK4XaPH5YIHyC98iIKih5Kp3450NNK5yUrnD/RoMr6B0TyNc6k3XWbPmDsBy4xkGx99DYmxaoT758JjVQT1PgyJP6qpKhPoIpJdRKT09lPs/DZG/u8o7qeYMwEO3vluCp1jVnSZp6ga7fBcGyViO+qVhj+7h8SHiWYkl8ON7I5izsbcCVBgLntUYD5iQooQeOiS+GxfE4kr12rlw7YqzOBxaz8Ob0v9OBlO8FkV0GhbkJNdhdwcLfLytAg8qEJs6BX58POBcRFgvWEA3VOAurQBnl9HUQzHse1wTYCmoK7tJTpGrALD6CQMY4RRK/ILalDd2CXvXB2PlREiPv2wjVBcRPHCpoDhSXuAZz70uxxB8JGfEeibRS3IwvF9mR/s3jTzXPKdtAeCjvyEsGO5OEZjyEJ1FNcOlwRYZKF+2ai414xK7XNkZmikMpu/DEZ0UIHYNFUtuH5Dhz3r47BrXSyKr9eisspmD/s+R2I4is1wSYAzUJc1omca0tsm42scck8iAiE4T2TYZpoEtWcCQYezZEvyYmKbyToDRYwabktDHMZmONcA9c/XIwV/mIbQ8moMDSQwo2UaCtoDm5YEQ5muEXF2jEzKlCjTK5CWVEbjOi264MlIOF0yfwJcuuSzv8pyKbvzDFmqu+imzMqpHVwZZVqFnNV1DMgkVFa3ouL3ZjztHcaTnuEFEqDx8aIx0lCPucyX82skc1b/s74RWcEZKTdhorO7tQaa/T66Kyxoo3uAidQTKa7OvAmwolnlzS9HJUu+iFoHxyUrDqykcWMC3aQNrk7Jbw3S9xfjU7iYeQs6/auFEeD+c8l7Zlh4gzTz92n5VENb34leslXpDMimpdQL2v23niDpzA25kJr73iLCPw8NtLy4cvMW4bbVkUhNKMXVEh3iIm0LhQMF+KhQePURbUQtEqJLUERrWEGXke/WZLopa5B5rhLeG+NxSXUPhcW14u9sJTsVIc87f5h/HdpIJ/bnD3aC+NmfF7KK/wksElgk8H8nEI73HoQtb4ht7/IAAAAASUVORK5CYII=" InformativeScreenshot="8a2a21975d8e2a4855af9cebb0ad503b.jpg" Reference="wbHWQQW-B02CV00pRCTNRQ/l5JKRAG9n0G-jKpGj_kI4A" Selector="&lt;html app='msedge.exe' title='Dashboard' /&gt;" Url="https://localhost:44327/dashboard" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Arabic" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="585.6,1744" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="2f763911-9349-4329-b9c5-5d006d60f7b1" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="552,1504" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[dt_ExamResult]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Student Name' ReferenceIdx='0' Name='Student Name'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Student Name Url' ReferenceIdx='1' Name='Student Name Url' IsDeleted='true'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Total Score' ReferenceIdx='2' Name='Total Score' IsDeleted='true'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Result Status' ReferenceIdx='3' Name='Result Status'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Class' ReferenceIdx='4' Name='Class' IsDeleted='true'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Student Name' attr='fulltext' name2='Student Name Url' attr2='href' /&gt;&lt;column name='Total Score' attr='fulltext' /&gt;&lt;column name='Result Status' attr='fulltext' /&gt;&lt;column name='Class' attr='fulltext' /&gt;&lt;/extract-table&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="518.4,189.6" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="2f763911-9349-4329-b9c5-5d006d60f7b1" Version="V4">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable BrowserURL="https://localhost:44327/result/studentresult/61b17dfb-4a0f-4e06-99c1-66f034952ed6" DesignTimeRectangle="406, 236, 1411, 558" DesignTimeScaleFactor="1.125" FullSelectorArgument="&lt;webctrl id='examresult-table' tag='TABLE' /&gt;" Guid="27f2a064-2b06-42f4-98c8-22a46a34f5da" InformativeScreenshot="bdf1c0651611d736280101f04e0fb9f3.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Arabic' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:FilterDataTable DataTable="[dt_ExamResult]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="518.4,194.4" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[dt_ExamResult]" SelectColumnsMode="Remove">
+              <ui:FilterDataTable.Filters>
+                <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                  <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                    <ui:FilterOperationArgument.Column>
+                      <InArgument x:TypeArguments="x:String">["Result Status"]</InArgument>
+                    </ui:FilterOperationArgument.Column>
+                    <ui:FilterOperationArgument.Operand>
+                      <InArgument x:TypeArguments="x:String">["Passed"]</InArgument>
+                    </ui:FilterOperationArgument.Operand>
+                  </ui:FilterOperationArgument>
+                </scg:List>
+              </ui:FilterDataTable.Filters>
+              <ui:FilterDataTable.SelectColumns>
+                <scg:List x:TypeArguments="InArgument" Capacity="4">
+                  <x:Null />
+                </scg:List>
+              </ui:FilterDataTable.SelectColumns>
+            </ui:FilterDataTable>
+            <ui:FilterDataTable DataTable="[dt_ExamResult]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="518.4,194.4" sap2010:WorkflowViewState.IdRef="FilterDataTable_2" OutputDataTable="[dt_ExamResult]" SelectColumnsMode="Remove">
+              <ui:FilterDataTable.Filters>
+                <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                  <ui:FilterOperationArgument Column="{x:Null}" Operand="{x:Null}" BooleanOperator="And" Operator="LT" />
+                </scg:List>
+              </ui:FilterDataTable.Filters>
+              <ui:FilterDataTable.SelectColumns>
+                <scg:List x:TypeArguments="InArgument" Capacity="4">
+                  <InArgument x:TypeArguments="x:String">["Result Status"]</InArgument>
+                </scg:List>
+              </ui:FilterDataTable.SelectColumns>
+            </ui:FilterDataTable>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_ExamResult]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="518.4,864" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="516.8,689.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="powerpnt.exe" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,629.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" ScopeGuid="405ffaf7-7888-4f5f-a02b-357f9de15540" Version="V2">
+                      <uix:NApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,339.2" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Student Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,279.2" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="405ffaf7-7888-4f5f-a02b-357f9de15540" Text="[CurrentRow(&quot;ColumnName&quot;).ToString()]" Version="V4">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable CVScreenId="24aa79bf-e97c-4051-ac47-89acc761cb5a" ContentHash="ey3p7X0TIUeJHRhcK1yW_w" DesignTimeRectangle="927, 571, 427, 69" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;uia name='Google Shape;155;p35' role='textbox' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;uia name='Google Shape;155;p35' role='textbox' automationid='' /&gt;" Guid="b1429d07-97b3-48c3-a7cd-01d9eafd3882" InformativeScreenshot="c9c867287a8c6c5870063bca83790580.png" Reference="wbHWQQW-B02CV00pRCTNRQ/sqFGYK8GR0emz--TEA8oxA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='ExamNationCertification .pptx - PowerPoint' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.VerifyOptions>
+                                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                </uix:VerifyExecutionTypeIntoOptions>
+                              </uix:NTypeInto.VerifyOptions>
+                            </uix:NTypeInto>
+                          </Sequence>
+                        </ActivityAction>
+                      </uix:NApplicationCard.Body>
+                      <uix:NApplicationCard.TargetApp>
+                        <uix:TargetApp Area="-9, 184, 1938, 828" ContentHash="7BKruBgfrkCzpk-wTkykfA" FilePath="C:\Program Files (x86)\Microsoft Office\root\Office16\powerpnt.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHlSURBVFhH7Zc9S8NAGMf7SRQc+gX8ADqIqzjb2cHVl8XBwVF8QXCzVG11K50ydJJOIi6KUMR0EkQUO9RgEBTO/GOupunlcrl7Gqj2B3/ywpPcj7vLJckNPRNj44vEyQe3pgE3ZUTsbe/ckUtSCp5VTtlbp/NMKkktCEglByEIyCRNBN/rh34+riz2+XjfIwhIJFUFbdtmlmWxYrHoB3BBnuPNVf98GGPJJEHHcVitVuuKyQSP1pf881GMJGWCkCuXy31yaQWBtqRMED0HQQxto9FQEuSpHOz6czIcvk4GTasRJ+i6brD3S5JgOHhwRGgLuq0mc24u2Uu1xJ5O9pm9UvBzPZv3A9IIIiKkgl5DU17mvGx4KXk5v5jJv3rbrkhcQBaCwsZVAqKCOmQmmJQ4RoIqwbIUR2rB1vJCT5qF6b4aBIhkRMFrMY7UgiIettaEdSKZaLC4y9AWxNqHtRB8OR1hnUgoHLx18HqUoS2I/dv5yeDo5zhaJ5LiQc8lyQEjQcxBjqgu/LnFg3OyORdFW5APL2jXq7F1phg9JJh7kMNQy+pMMBpiWagYqKDog0AlYf5eD6qGioEKioZPJWH+dw9SMPRDbPRPQoFUUAQuwIUqf3UUaAtmxUjQFC3BrBM0PQzkct+wgAuD521wegAAAABJRU5ErkJggg==" InformativeScreenshot="47de3456df2b2b430f733a0691bfdaae.png" Reference="wbHWQQW-B02CV00pRCTNRQ/ELXXcydmGUuyaVIqovfe8g" Selector="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='ExamNationCertification .pptx - PowerPoint' /&gt;&lt;wnd cls='mdiClass' /&gt;" Version="V2" />
+                      </uix:NApplicationCard.TargetApp>
+                    </uix:NApplicationCard>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Edge" ContentHash="xtNLr6ZbfUqaw97B33dt6A" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAP2SURBVFhH7VX5U5NnEO6/ZD3q1Zl2xhlndBQRBR0vREWlFZVygyBUhHBjRCMtx8ihKLEtIMGrhBEVw9WqIBAiIcCAgoIcJoTjcXczUUszCcJMO53ywzP5vn03+z27++y+X2z9Khz/JhYJLBL4bxDYsjwUW5b9He4rwj6+k4/4ryD/T85nx5oNlwS2rz0F/z1KBPhc/AtOEg64JeL43vP44YAKRz3T5OM7vjmNE94XEEC2/RviiYTjuHY4JcAZ+GxS4HFLL9rfmNE+ZIb+rcWGYTOS435BsVpHzxbo2vrh55WOjJRy8a1r74f/biXclzuvgmsCmxVo6hyEcQK4XaPH5YIHyC98iIKih5Kp3450NNK5yUrnD/RoMr6B0TyNc6k3XWbPmDsBy4xkGx99DYmxaoT758JjVQT1PgyJP6qpKhPoIpJdRKT09lPs/DZG/u8o7qeYMwEO3vluCp1jVnSZp6ga7fBcGyViO+qVhj+7h8SHiWYkl8ON7I5izsbcCVBgLntUYD5iQooQeOiS+GxfE4kr12rlw7YqzOBxaz8Ob0v9OBlO8FkV0GhbkJNdhdwcLfLytAg8qEJs6BX58POBcRFgvWEA3VOAurQBnl9HUQzHse1wTYCmoK7tJTpGrALD6CQMY4RRK/ILalDd2CXvXB2PlREiPv2wjVBcRPHCpoDhSXuAZz70uxxB8JGfEeibRS3IwvF9mR/s3jTzXPKdtAeCjvyEsGO5OEZjyEJ1FNcOlwRYZKF+2ai414xK7XNkZmikMpu/DEZ0UIHYNFUtuH5Dhz3r47BrXSyKr9eisspmD/s+R2I4is1wSYAzUJc1omca0tsm42scck8iAiE4T2TYZpoEtWcCQYezZEvyYmKbyToDRYwabktDHMZmONcA9c/XIwV/mIbQ8moMDSQwo2UaCtoDm5YEQ5muEXF2jEzKlCjTK5CWVEbjOi264MlIOF0yfwJcuuSzv8pyKbvzDFmqu+imzMqpHVwZZVqFnNV1DMgkVFa3ouL3ZjztHcaTnuEFEqDx8aIx0lCPucyX82skc1b/s74RWcEZKTdhorO7tQaa/T66Kyxoo3uAidQTKa7OvAmwolnlzS9HJUu+iFoHxyUrDqykcWMC3aQNrk7Jbw3S9xfjU7iYeQs6/auFEeD+c8l7Zlh4gzTz92n5VENb34leslXpDMimpdQL2v23niDpzA25kJr73iLCPw8NtLy4cvMW4bbVkUhNKMXVEh3iIm0LhQMF+KhQePURbUQtEqJLUERrWEGXke/WZLopa5B5rhLeG+NxSXUPhcW14u9sJTsVIc87f5h/HdpIJ/bnD3aC+NmfF7KK/wksElgk8H8nEI73HoQtb4ht7/IAAAAASUVORK5CYII=" InformativeScreenshot="41bcfea61cabdbf93e79db1124ec19c9.jpg" Reference="wbHWQQW-B02CV00pRCTNRQ/-fSmKD1-NUunMKL0rNjzKQ" Selector="&lt;html app='msedge.exe' title='Arabic' /&gt;" Url="https://localhost:44327/result/studentresult/61b17dfb-4a0f-4e06-99c1-66f034952ed6" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

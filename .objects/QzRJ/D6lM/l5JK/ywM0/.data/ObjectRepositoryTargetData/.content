@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="h9rXkbp70k-vhhg6tQ3mzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/dashboard" CVScreenId="353463f8-a8b8-4d8c-ba81-ad65aa67b010" CvTextArea="80, 570, 97, 15" CvTextArgument="Exam Result" CvType="Text" DesignTimeRectangle="82, 565, 95, 26" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Exam Result' parentid='sidebar-nav' tag='SPAN' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;webctrl aaname='Exam Result' parentid='sidebar-nav' tag='SPAN' type='' class='' check:innerText='Exam Result' /&gt;" Guid="5c90d4b7-93de-4eca-af31-eaf6a70fbf3f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="353463f8-a8b8-4d8c-ba81-ad65aa67b010" CvElementArea="49, 565, 25, 26" CvType="Icon" DesignTimeRectangle="53, 569, 18, 18" FullSelectorArgument="&lt;webctrl idx='9' parentid='sidebar-nav' tag='I' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl type='' parentid='sidebar-nav' tag='I' class='fa-solid fa-certificate' aaname='' /&gt;" Guid="45277d46-d593-4f9f-819e-ff8f0414c341" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFzSURBVEhL3ZOxigIxFEX3CxURQbT1B2zESm2ttPMbFBtLP8BORZBp9BMUBAVBRK+cwIS4SWZ2hW32wiXk5d0zw8zLl/5I/xC8XC7V6/V0OBzMnpU99SzlggeDgQqFglqtlvb7vVnZU8+SBz6dTppMJkqSRMfjUc1m04C+mzrn9NFPzpUHXq1WKpVKQVjM9JNz5YF5i0ajEQTETD85Vx74crmo0+kEATHTT86VBW+3W/PkYrEYDOeZHHk4yIIXi4XK5XIw9FOTh4Ms+Pl8aj6ffwwnRx4OevvGWeOV53T8UlkwN+pTaGry6Q214Ol0Gmz+reEgC77f71qv1xqNRqrVasFQzPSTIw8HvX1jdL1e1W63g4CY6SfnygPvdjtVq9UgIGb6ybnywJvNRpVKxQz7cDhUvV4PwqhzTh/95Fx5YFe3203dbteAmNN+v2/nnDrnMWWC0Xg8tsP/eDw0m83MnnqWcsH85fP5bG8UK/v074clvQB8bMS4BgBwsgAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="df3554446cc773c9395b9d29ef83124d.png" xmlns="">0evizU0gL4Uev2OWMUNSO6Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

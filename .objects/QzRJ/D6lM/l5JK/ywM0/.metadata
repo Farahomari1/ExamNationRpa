@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Exam Result",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ywM0o8NMlEiT_6uAWjDKjg",
+  "Reference": "wbHWQQW-B02CV00pRCTNRQ/ywM0o8NMlEiT_6uAWjDKjg",
+  "ParentRef": "wbHWQQW-B02CV00pRCTNRQ/l5JKRAG9n0G-jKpGj_kI4A",
+  "Created": "2025-01-25T13:17:25.9524068Z",
+  "Updated": "2025-01-25T13:17:25.9524068Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FBHVCKO8h0ma1-bhLStOWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/account/login" CVScreenId="7500157c-2afe-4fbd-a082-248c6d3a5b6a" CvElementArea="984, 632, 21, 22" CvType="CheckBox" DesignTimeRectangle="987, 634, 16, 17" DesignTimeScaleFactor="1.125" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl id='RememberMe' tag='INPUT' /&gt;" FuzzyAccuracy="0.94" FuzzySelectorArgument="&lt;webctrl id='RememberMe' tag='INPUT' type='checkbox' class='form-check-input' aaname='Remember me?' /&gt;" Guid="48fea2b4-e770-4e69-8575-d7a68ca2d4e7" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7500157c-2afe-4fbd-a082-248c6d3a5b6a" CvTextArea="1010, 635, 119, 15" CvTextArgument="Remember me?" CvType="Text" DesignTimeRectangle="1012, 631, 117, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Remember me?' tag='LABEL' /&gt;" FuzzyAccuracy="0.92" FuzzySelectorArgument="&lt;webctrl aaname='Remember me?' tag='LABEL' type='' class='form-check-label small fw-light' check:innerText='Remember me?' /&gt;" Guid="e2d4ae58-a49c-4feb-9be3-0ad96716101c" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="05d049d29a3856368576f0a9e05fa45e.png" xmlns="">0DGfpbaweBEa371bY_os87A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

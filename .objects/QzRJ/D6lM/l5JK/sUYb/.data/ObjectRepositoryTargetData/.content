@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_5E_lKcotkCIE3Qwv0Qoxw" Reference="wbHWQQW-B02CV00pRCTNRQ/sUYbK52KtUeskqsWF9yE5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/result" CVScreenId="01bae9c7-14b3-4b37-b002-9e914bb5a966" CvTextArea="391, 454, 55, 15" CvTextArgument="Arabic" CvType="Text" DesignTimeRectangle="393, 450, 53, 23" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl id='examresult-table' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;" FuzzyAccuracy="0.96" FuzzySelectorArgument="&lt;webctrl id='examresult-table' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' isleaf='1' class='fw600 color-primarycolor hover-color-secondarycolor' aaname='Arabic ' /&gt;" Guid="5e7180a0-0968-47bd-9505-a74353508381" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Exam Result' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1c01bee51bde73b65e5feda724a7d4d6.png" xmlns="">0N-UQRSotTUK2a0VFZbEaMA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

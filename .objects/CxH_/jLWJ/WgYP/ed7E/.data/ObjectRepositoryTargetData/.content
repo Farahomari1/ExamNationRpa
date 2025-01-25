@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CVlwIHn9IUSbBq9fUcuRAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost" CVScreenId="dbe82f27-6998-4ed2-bc9a-ffd501d5ec4f" DesignTimeRectangle="1444, 176, 95, 41" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='hover-boxshadow border-0 bg-light color-black hover-bg-primarycolor px-4 py-2 rounded shadow' aaname='Login' check:innerText='Login' /&gt;" Guid="5f643c17-ed0d-483b-8354-d91a97506a7a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ExamEase' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7c43056b976ec1ec4ab7cf57c3896e12.png" xmlns="">0PvKmJM5DFE2G5Y6gLW2atA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

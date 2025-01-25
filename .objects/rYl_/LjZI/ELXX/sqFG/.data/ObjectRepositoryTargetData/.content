@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ey3p7X0TIUeJHRhcK1yW_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="24aa79bf-e97c-4051-ac47-89acc761cb5a" DesignTimeRectangle="927, 571, 427, 69" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;uia name='Google Shape;155;p35' role='textbox' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;uia name='Google Shape;155;p35' role='textbox' automationid='' /&gt;" Guid="b1429d07-97b3-48c3-a7cd-01d9eafd3882" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='ExamNationCertification .pptx - PowerPoint' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c9c867287a8c6c5870063bca83790580.png" xmlns="">0FnX6WG9jxEeldELf7KBTsw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

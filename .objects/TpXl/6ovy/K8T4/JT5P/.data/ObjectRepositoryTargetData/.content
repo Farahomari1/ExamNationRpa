@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3soF-1aGJ0ethe0L6H-2zQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/account/login" CVScreenId="a372f883-86d1-4304-8bc1-4a17a4806969" CvElementArea="984, 684, 103, 50" CvTextArea="1009, 701, 52, 13" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="987, 686, 99, 46" DesignTimeScaleFactor="1.125" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn form-btn btn-primary hover-boxshadow hover-moveup' aaname='Submit' check:innerText='Submit' /&gt;" Guid="54907be5-d412-4f4c-a8af-6a2655e2085e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="62ed74f86e2092b214c067f08452824a.png" xmlns="">085Pdc78bOkiSe6FfYJt7rQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

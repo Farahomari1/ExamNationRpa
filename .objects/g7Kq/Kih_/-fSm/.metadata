@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Arabic",
+  "Type": "Screen",
+  "Id": "-fSmKD1-NUunMKL0rNjzKQ",
+  "Reference": "wbHWQQW-B02CV00pRCTNRQ/-fSmKD1-NUunMKL0rNjzKQ",
+  "ParentRef": "wbHWQQW-B02CV00pRCTNRQ/Kih_yMOZvEW9GK2ebaxeLw",
+  "Created": "2025-01-25T14:00:20.0784416Z",
+  "Updated": "2025-01-25T14:00:20.0784416Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
